@@ -1,0 +1,24 @@
+{
+  "name": "HazelColletibleBase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "HazelProject",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "truffle-plugin-verify": "^0.5.18"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "solidity-coverage": "^0.7.17",
+    "truffle": "^5.3.6",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-security": "^1.7.3",
+    "web3": "^1.6.1"
+  }
+}
